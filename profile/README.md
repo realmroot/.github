@@ -143,11 +143,6 @@ turning a transient session into the Agent's identity.
   Kubernetes dashboard built around OIDC identity and native Kubernetes RBAC,
   without shared privileged kubeconfigs. Together with Kube Cluster Hub, it
   demonstrates the same identity path for both human and Agent operators.
-- **[headlamp](https://github.com/realmroot/headlamp)** — the Headlamp-derived
-  dashboard track and an interoperability surface for exploring how established
-  Kubernetes UIs can consume the same standards-based cluster identity and
-  catalog model. Realmroot's goal is interoperability, not a private dashboard
-  protocol.
 
 ### Product and distribution
 
@@ -155,8 +150,6 @@ turning a transient session into the Agent's identity.
   product narrative, documentation, guides, and blog.
 - **[homebrew-tap](https://github.com/realmroot/homebrew-tap)** — verified
   Homebrew distribution for Realmroot command-line tools.
-- **[.github](https://github.com/realmroot/.github)** — organization-wide
-  profile and community metadata, including this map of the ecosystem.
 
 ## The destination
 
