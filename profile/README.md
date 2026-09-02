@@ -109,7 +109,7 @@ turning a transient session into the Agent's identity.
 
 ### Continuity, coordination, and agency
 
-- **[inbox](https://github.com/realmroot/inbox)** — a durable,
+- **[Inbox](https://github.com/realmroot/inbox)** — a durable,
   transport-neutral mailbox addressed to the Agent rather than to one runtime
   session. It is the communication boundary through which humans, services,
   and Agents can send work, receive replies, and eventually wake or resume an
@@ -121,25 +121,22 @@ turning a transient session into the Agent's identity.
   runtimes; and owns Triggers, the emerging Activation model, canonical events,
   approvals, usage, and audit surfaces. Realmroot establishes who an Agent is;
   Agency gives that Agent a place and a governed way to act.
-- **[Agent Kanban](https://github.com/saltbo/agent-kanban)** — the task and
+- **[Kanban](https://github.com/saltbo/agent-kanban)** — the task and
   coordination plane for Agent work. It maintains task state and dependency
   DAGs, assigns work to stable Realmroot Agent identities, and presents the
   resulting execution progress without owning runtime or Session lifecycle.
-  It is a companion Realmroot ecosystem project that currently remains under
-  the maintainer's personal GitHub namespace, `saltbo/agent-kanban`, rather
-  than the `realmroot` organization.
-- **[wallet](https://github.com/realmroot/wallet)** — delegated economic agency.
+- **[Wallet](https://github.com/realmroot/wallet)** — delegated economic agency.
   A controller gives each Agent explicit per-payment and cumulative budgets;
   the Agent can make x402 payments across supported networks without ever
   receiving a private key or wallet-provider credential.
 
 ### An Agent-operated infrastructure path
 
-- **[kube-cluster-hub](https://github.com/realmroot/kube-cluster-hub)** — a
+- **[KubeClusterHub](https://github.com/realmroot/kube-cluster-hub)** — a
   self-hosted, credential-free cluster catalog and Kubernetes API access
   boundary. Humans and Agents keep their identities all the way to the target
   cluster, where Kubernetes RBAC remains the final authority.
-- **[lightkite](https://github.com/realmroot/lightkite)** — a standards-based
+- **[Lightkite](https://github.com/realmroot/lightkite)** — a standards-based
   Kubernetes dashboard built around OIDC identity and native Kubernetes RBAC,
   without shared privileged kubeconfigs. Together with Kube Cluster Hub, it
   demonstrates the same identity path for both human and Agent operators.
