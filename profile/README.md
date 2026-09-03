@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/realmroot/realmroot/main/assets/logo.png" alt="Realmroot logo" width="132" height="132" />
+  <img src="https://realmroot.dev/assets/logo.png" alt="Realmroot logo" width="132" height="132" />
 </p>
 
 <h1 align="center">Realmroot</h1>
